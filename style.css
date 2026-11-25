@@ -297,8 +297,6 @@ article li + li {
 }
 
 .credits {
-  display: grid;
-  gap: 0.25rem;
   padding-block: 1rem;
   color: var(--muted);
   font-size: 0.9375rem;

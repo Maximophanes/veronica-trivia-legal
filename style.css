@@ -297,10 +297,8 @@ article li + li {
 }
 
 .credits {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 0.25rem 1.45rem;
+  display: grid;
+  gap: 0.25rem;
   padding-block: 1rem;
   color: var(--muted);
   font-size: 0.9375rem;
@@ -309,6 +307,10 @@ article li + li {
 
 .credits p {
   margin: 0;
+}
+
+.credits a {
+  color: inherit;
 }
 
 @media (max-width: 39rem) {
